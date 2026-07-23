@@ -14,7 +14,6 @@ where the project is archived/abandoned, the advisory is self-published and a CV
 | [2026-004](advisories/2026-004-pimcore-cmf-termsegmentbuilder-bac.md) | Broken access control — `TermSegmentBuilderController` (information disclosure) | Pimcore CMF ≤ 4.2.4 | CWE-862 | Medium | Draft | — |
 | [2026-005](advisories/2026-005-pimcore-cmf-newsletter-rce.md) | OS command injection — newsletter queue (unescaped customer email) | Pimcore CMF ≤ 4.2.4 | CWE-78 | High&dagger; | Draft | — |
 | [2026-006](advisories/2026-006-sentrifugo-hrms-grid-sqli.md) | SQL injection — grid `sort`/`by`/`searchData` (systemic, ~110 endpoints) | Sentrifugo HRMS 3.2 & `master` | CWE-89 | High | Draft | ⧗ MITRE |
-| [2026-007](advisories/2026-007-talelin-lin-cms-koa-hardcoded-jwt-secret.md) | Use of hard-coded JWT signing secret (auth bypass) | lin-cms-koa ≤ 0.3.11 | CWE-321 | Critical | CVE-Requested | ⧗ MITRE |
 
 *(`Status`: Draft → Published → CVE-Requested → CVE-Assigned. Shared reproduction for the CMF set:
 [`advisories/_reproduction.md`](advisories/_reproduction.md).)*
